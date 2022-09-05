@@ -18,9 +18,9 @@ function ProperityDetails({pro}) {
     return (
         <div className="container-components">
             <div className="w-full lg:w-[70%] mx-auto my-10">
-                <div className="slider mx-auto my-8 lg:my-6 ">
-                <Slider {...settings}>
-                {photos.map(im=><img key={im.id} src={im.url} className=""/>)}
+                <div className="slider mx-auto my-8 lg:my-6 h-[500px] w-full">
+                <Slider {...settings} className="h-[500px]">
+                {photos.map(im=><Image key={im.id} src={im.url} layout='fill' objectFit='contain' className="h-[500px]"/>)}
                 </Slider>
                 </div>
 
