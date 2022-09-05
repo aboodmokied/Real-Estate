@@ -31,7 +31,7 @@ export async function getServerSideProps({ query }){
     const options = {
         method: 'GET',
         headers: {
-            'X-RapidAPI-Key': '223d09d2edmshbcf819a550283afp1a8bb5jsnb49d80703e19',
+            'X-RapidAPI-Key': '3c42b7a59dmsh8eb0e51182612bdp1dc7b7jsnf2e0d179449d',
             'X-RapidAPI-Host': 'bayut.p.rapidapi.com'
         }
     };
